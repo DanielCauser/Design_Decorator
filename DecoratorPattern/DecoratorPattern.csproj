@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FitroDeContas\Conta.cs" />
+    <Compile Include="FitroDeContas\ContaComSaldoMaiorQue500.cs" />
+    <Compile Include="FitroDeContas\ContaComSaldoMenorQue100.cs" />
+    <Compile Include="FitroDeContas\FiltroContas.cs" />
     <Compile Include="Imposto\CalculadorDeImposto.cs" />
     <Compile Include="Imposto\ICMS.cs" />
     <Compile Include="Imposto\Imposto.cs" />
